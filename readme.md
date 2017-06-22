@@ -1,32 +1,32 @@
 # Enhanced Aria
-Version 1.3
+Версия 1.3
 
-## Introduction
+## Введение
 
-This addon allows you to customize which aria landmarks are reported by NVDA when you browse the Internet.
+Этот аддон позволяет настроить, какие ориентиры указываются NVDA при просмотре Интернета.
 
-Its functionality is very simple. Once installed, open your webbrowser and visit the web as usual. The default aria landmarks reported by Firefox and Chrome will also be visible in Internet Explorer, so you will be able to press quick navigation keys to jump between them, and list them by pressing NVDA+f7 in all browsers. Read the NVDA User Guide for more information.
+Его функциональность очень проста. После установки, откройте веб-браузер и посетите веб, как обычно. Ориентиры по умолчанию, сообщённые в Firefox и Chrome также будут видны в Internet Explorer, так что вы сможете нажать быстрые клавиши навигации для перехода между ними, и просмотреть их, нажав NVDA + f7 во всех браузерах. Прочитайте руководство пользователя NVDA для получения дополнительной информации.
 
-The addon adds an extra landmark not included by default in NVDA, the article.
+Аддон добавляет дополнительный ориентир, не включенный по умолчанию в NVDA, Элементы.
 
-## The configuration dialog
+## Диалог конфигурации
 
-You can enable or disable landmarks by going to NVDA, preferences, Enhanced Aria Settings. The dialog has a checkbox for each landmark. If you disable a landmark, you won't be able to jump to it pressing the d key when browsing a webpage, and NVDA won't report it.
+Вы можете включить или отключить ориентиры, перейдя в NVDA, Параметры, Настройки Enhanced Aria. Диалог содержит флажок для каждого ориентира. Если отключить ориентир, вы не сможете перейти к нему, нажав клавишу d, при просмотре веб-страницы, и NVDA о нём не сообщит.
 
-## Contact info
+## Контактная информация
 
-This addon has been developed by Jose Manuel Delicado. If you want to contact me, send an e-mail to jmdaweb@hotmail.com, or open an issue on GitHub at https://github.com/jmdaweb/enhancedAria
+Этот аддон был разработан Jose Manuel Delicado. Если вы хотите связаться со мной, отправьте E-mail на jmdaweb@hotmail.com или откройте страницу на GitHub https://github.com/jmdaweb/enhancedAria
 
-## Changelog
+## Изменения
 
-### Version 1.3
+### Версия 1.3
 
-* Added configobj specification for addon settings
+* Добавлена спецификация configobj для настроек аддона
 
-### Version 1.2
+### Версия 1.2
 
-* Bugs fixed
+* Исправлены ошибки
 
-### Version 1.1
+### Версия 1.1
 
-* Fixed issues which prevented opening the addon settings dialog when reverting to NVDA saved configuration
+* Исправлены проблемы, которые мешали открытию диалогового окна настройки аддона при возвращении к сохранению конфигурации NVDA
